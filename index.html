@@ -72,7 +72,7 @@
 			<p>I like to apply this philosophy to daily life. I do not like to beat about the bush. Either the goals were achieved or not. And if not, the routines and habits are adjusted so that the goals are achieved next time.</p>
 			<p>Earlier this year I have also joined a club and will be competing in this year's Swiss Powerlifting Championship.</p>
 			<p>As I am still in my bachelor’s programme for a year, I would have to have a 60-70% workload (with 1.5 days of school per week).</p>
-			<p id="about"></p>
+			<p id="aboutTest"></p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
@@ -608,11 +608,10 @@
 					  if (file.readyState === 4) {  // Makes sure the document is ready to parse
 						if (file.status === 200) {  // Makes sure it's found the file
 						  text = file.responseText;
-						  document.getElementById("about").innerHTML = text;
+						  document.getElementById("aboutTest").innerHTML = text;
 						}
 					  }
 					}
-					alert("huhu");
 				}
 
 				window.onLoad = load();
