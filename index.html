@@ -435,7 +435,7 @@
           <div class="card-body">
             <div class="h5">Hochschule Luzern</div>
             <p class="category">Bachelor in Business IT</p>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+            <p id="textHSLU"></p>
           </div>
         </div>
       </div>
@@ -624,6 +624,10 @@
 				fetch('/text/'+x+'/ukb.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("ukb").innerHTML=text)
+				fetch('/text/'+x+'/hslu.txt')
+					.then(response => response.text())
+					.then(text => document.getElementById("textHSLU").innerHTML=text)
+					
 				document.getElementById("subCatTitle").innerHTML="Project Portfolio"
 				}
 				
