@@ -73,20 +73,6 @@
 			<p>Earlier this year I have also joined a club and will be competing in this year's Swiss Powerlifting Championship.</p>
 			<p>As I am still in my bachelor’s programme for a year, I would have to have a 60-70% workload (with 1.5 days of school per week).</p>
 			<p id="about">
-				function load() {
-					var file = new XMLHttpRequest();
-					file.open("GET", "https://becker-max.github.io/file.txt", true);
-					file.onreadystatechange = function() {
-					  if (file.readyState === 4) {  // Makes sure the document is ready to parse
-						if (file.status === 200) {  // Makes sure it's found the file
-						  text = file.responseText;
-						  document.getElementById("about").innerHTML = text;
-						}
-					  }
-					}
-				}
-
-				window.onLoad = load();
 			</p>
           </div>
         </div>
@@ -615,5 +601,21 @@
     <script src="js/now-ui-kit.js?v=1.1.0"></script>
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
+	<script>
+					function load() {
+					var file = new XMLHttpRequest();
+					file.open("GET", "https://becker-max.github.io/file.txt", true);
+					file.onreadystatechange = function() {
+					  if (file.readyState === 4) {  // Makes sure the document is ready to parse
+						if (file.status === 200) {  // Makes sure it's found the file
+						  text = file.responseText;
+						  document.getElementById("about").innerHTML = text;
+						}
+					  }
+					}
+				}
+
+				window.onLoad = load();
+	</script>
   </body>
 </html>
