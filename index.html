@@ -614,11 +614,12 @@
 					  }
 					}*/
 					var fs = require('fs');
-					fs.readFile('file.txt', function (err, data) {
+					fs.readFile('file.txt', function (err, textbla) {
 										if (err) throw err;
 
-						console.log(data);
+						console.log(textbla);
 					});
+					document.getElementById("aboutTest").innerHTML = textbla;
 				}
 
 				window.onLoad = load();
