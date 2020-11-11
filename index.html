@@ -27,7 +27,7 @@
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
-				<li><button class="btn"><a class="nav-link smooth-scroll">Switch Language</button></a></li>
+				<li id="chngLanguage" class="nav-item"><a class="nav-link smooth-scroll">Change Language</a></li>
               </ul>
             </div>
           </div>
@@ -605,14 +605,19 @@
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
 	<script>
-				function load() {
-				fetch('/text/en/about.txt')
+				function load(lang) {
+				fetch('/text/'+lang+'/about.txt')
 				  .then(response => response.text())
 				  .then(text => document.getElementById("aboutTest").innerText=text)
 				  .then(text => console.log(text))
 				}
+				
+				$('#chngLanguage').click(function() {
+				  alert($(this).text());
+				  load("de")
+				});
 
-				window.onLoad = load();
+				window.onLoad = load("en");
 	</script>
   </body>
 </html>
