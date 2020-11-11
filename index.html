@@ -339,7 +339,8 @@
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
             <div class="h5">Application Manager</div>
-            <p>
+            <p id="lukb">
+			<!--
 			<ul>
 			<li>Tasks</li>
 				<ul>
@@ -363,6 +364,7 @@
 				<li>Bash</li>
 				</ul>
 			</ul>
+			-->
 			</p>
           </div>
         </div>
@@ -608,9 +610,11 @@
 	var language = "en";
 				function load(x) {
 				fetch('/text/'+x+'/about.txt')
-				  .then(response => response.text())
-				  .then(text => document.getElementById("aboutTest").innerText=text)
-				  .then(text => console.log(text))
+					.then(response => response.text())
+					.then(text => document.getElementById("aboutTest").innerText=text)
+				fetch('/text/'+x+'/lukb.txt')
+					.then(response => response.text())
+					.then(text => document.getElementById("lukb").innerHTML=text)
 				}
 				
 				$('#chngLanguage').click(function() {

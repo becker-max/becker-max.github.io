@@ -1,0 +1,23 @@
+			<ul>
+			<li>Tasks</li>
+				<ul>
+				<li>Support, maintenance and life cycle management of various apps, website sales of structured products with connection to core banking application (Avaloq)</li>
+				<li>2nd and 3rd level application support according to ITIL processes</li>
+				<li>App developments, further development of the product homepage (structured products at LUKB)</li>
+				<li>Change, Incident, Release and Test Management </li>
+				<li>Introduction, support and configuration of test automation software (Eggplant): installation and configuration of software and server application (Mac iOS), setup of test devices (Apple, Android devices and configuration on server), scripting of test cases</li>
+				<li>Support with migrations and adaptations</li>
+				<li>Stakeholder Management</li>
+				</ul>
+			<li>Technologies</li>
+				<ul>
+				<li>Jira</li>
+				<li>HP Quality Center</li>
+				<li>Opus</li>
+				<li>Eggplant SenseTalk</li>
+				<li>Linux</li>
+				<li>Mac OS</li>
+				<li>Shell Scripts</li>
+				<li>Bash</li>
+				</ul>
+			</ul>
