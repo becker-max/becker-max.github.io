@@ -1,4 +1,4 @@
-Mein Name ist Max Becker. Im Moment besuche ist die Hochschule Luzern, um meinen Bachelor-Abschluss in Wirtschaftsinformatik mit dem Schwerpunkt Data Science & Engineering zu machen.
+Hallo! Name ist Max Becker. Im Moment besuche ist die Hochschule Luzern, um meinen Bachelor-Abschluss in Wirtschaftsinformatik mit dem Schwerpunkt Data Science & Engineering zu machen.
 
 Datenwissenschaften haben mich schon immer interessiert. Seit meinen ersten Berührungspunkten mit IT bin ich immer wieder in Datenstrukturen gelandet. Seien das riesige Excel-Sheets, Datenbanken, Protokolle oder der Gleichen. Somit habe ich in jeder Firma, in der ich gearbeitet habe, Analysen und Bewirtschaftung dieser Strukturen auf Makro- oder Mikro-Unternehmensebene getätigt.
 
@@ -17,9 +17,3 @@ Ich wende diese Philosophie gerne auf das tägliche Leben an. Ich mag es nicht u
 Seit diesem Jahr bin ich auch einem Verein beigetreten und trete an der diesjährigen Schweizer Meisterschaft im Kraftdreikampf (Powerlifting) an.
 
 Da ich noch immer für ein Jahr im Bachelor-Studium bin, müsste ich ein 60-70% Pensum (bei 1.5 Tagen Schule in der Woche) antreten.
-
-Wenn Sie weitere Fragen über mich und meine Fähigkeiten haben, zögern Sie nicht, mich zu kontaktieren.
-
-
-
-Vielen Dank

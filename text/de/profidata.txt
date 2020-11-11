@@ -30,7 +30,7 @@ Risiko Management und Dokumentation
 Priorisierungen, Weiterentwicklung und Eskalation beim Product Owner
 </li><li>
 Pikettdienst
-</li><li></ul><li>
+</li></ul><li>
 Technologien 
 </li><ul><li>
 Oracle RDBMS

@@ -49,7 +49,7 @@
       </div>
       <div class="section">
         <div class="container">
-          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Google+"><i class="fa fa-google-plus"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
+          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
         </div>
       </div>
     </div>
@@ -197,12 +197,12 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 ml-auto mr-auto">
-        <div class="h4 text-center mb-4 title">Portfolio</div>
+        <div id="subCatTitle" class="h4 text-center mb-4 title"></div>
         <div class="nav-align-center">
           <ul class="nav nav-pills nav-pills-primary" role="tablist">
-            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
+            <li id="toggleProdPort" class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-pie-chart" aria-hidden="true"></i></a></li>
+            <li id="toggleUniPort" class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-university" aria-hidden="true"></i></a></li>
+            <li id="togglePersonal" class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
           </ul>
         </div>
       </div>
@@ -212,34 +212,34 @@
         <div class="ml-auto mr-auto">
           <div class="row">
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image"/>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://github.com/becker-max/BDLC">
+                  <figure class="cc-effect"><img src="images/bdlc.png" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Recent Project</div>
-                      <p>Web Development</p>
+                      <div class="h4">Big Data Project</div>
+                      <p>A project in the cource BDLC (Big Data Lab Cluster) about extracting data and feeding it into a Hadoop framework and visualizing it in Zeppelin</p>
                     </figcaption>
                   </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image"/>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://mbecker.pages.enterpriselab.ch/davi_flugzeugabstuertze/">
+                  <figure class="cc-effect"><img src="images/davi1.png" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Startup Project</div>
-                      <p>Web Development</p>
+                      <div class="h4">Data Visualizations done in D3</div>
+                      <p>Project done in DAVI (Data Visualizations) using plane crash data from kaggle</p>
                     </figcaption>
                   </figure></a></div>
             </div>
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image"/>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://github.com/becker-max/DAVI_2">
+                  <figure class="cc-effect"><img src="images/davi2.png" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Food Order Project</div>
-                      <p>Web Development</p>
+                      <div class="h4">Data Visualizations done in D3</div>
+                      <p>Major contributions in the course DAVI (Data Visualizations) to another group project visualizing FIFA player data</p>
                     </figcaption>
                   </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image"/>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://github.com/becker-max/DASB">
+                  <figure class="cc-effect"><img src="images/dasb.png" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Web Advertising Project</div>
-                      <p>Web Development</p>
+                      <div class="h4">Data visualizations done in R and Shiny</div>
+                      <p>Calculations and visualizations done in R and Shiny about FIFA player data</p>
                     </figcaption>
                   </figure></a></div>
             </div>
@@ -250,11 +250,11 @@
         <div class="ml-auto mr-auto">
           <div class="row">
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image"/>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://becker-max.github.io/attachments/zeugnisHSLU.pdf">
+                  <figure class="cc-effect"><img src="images/hochschule-luzern.png" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Triangle Pattern</div>
-                      <p>Graphic Design</p>
+                      <div class="h4">University Grades</div>
+                      <p>Grade record of Lucerne University of Applied Sciences and Arts</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
@@ -390,7 +390,7 @@
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
-            <p>Oktober 2013 - September 2014</p>
+            <p>October 2013 - September 2014</p>
             <div class="h5">Swissquote SA</div>
           </div>
         </div>
@@ -462,7 +462,7 @@
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header">
             <p>2006 - 2008</p>
-            <div class="h5"></div>
+            <div class="h5">Secondary School</div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -536,7 +536,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="card-body">
-                    <form action="https://formspree.io/your@email.com" method="POST">
+                    <form action="https://formspree.io/maximilian.becker1993@gmail.com" method="POST">
                       <div class="p pb-3"><strong>Feel free to contact me </strong></div>
                       <div class="row mb-3">
                         <div class="col">
@@ -577,11 +577,11 @@
                 <div class="col-md-6">
                   <div class="card-body">
                     <p class="mb-0"><strong>Address </strong></p>
-                    <p class="pb-2">140, City Center, New York, U.S.A</p>
+                    <p class="pb-2">Grossmatte 30, 6014 Luzern, Switzerland</p>
                     <p class="mb-0"><strong>Phone</strong></p>
-                    <p class="pb-2">+1718-111-0011</p>
+                    <p class="pb-2">+41795507768</p>
                     <p class="mb-0"><strong>Email</strong></p>
-                    <p>anthony@company.com</p>
+                    <p>maximilian.becker1993@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -594,8 +594,8 @@
 </div></div>
     </div>
     <footer class="footer">
-      <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
-      <div class="h4 title text-center">Anthony Barnett</div>
+      <div class="container text-center"><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
+      <div class="h4 title text-center">Maximilian Becker</div>
       <div class="text-center text-muted">
         <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
       </div>
@@ -624,6 +624,7 @@
 				fetch('/text/'+x+'/ukb.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("ukb").innerHTML=text)
+				document.getElementById("subCatTitle").innerHTML="Project Portfolio"
 				}
 				
 				$('#chngLanguage').click(function() {
@@ -633,6 +634,19 @@
 				  language="en";
 				  }
 				  load(language);
+				  document.getElementById("toggleProdPort").selected = true;
+				});
+				
+				$('#toggleProdPort').click(function() {
+					document.getElementById("subCatTitle").innerHTML="Project Portfolio";
+				});
+				
+				$('#toggleUniPort').click(function() {
+					document.getElementById("subCatTitle").innerHTML="Marks and Certificates"
+				});
+			
+				$('#togglePersonal').click(function() {
+					document.getElementById("subCatTitle").innerHTML="Personal Impressions"
 				});
 				
 				window.onLoad = load(language);
