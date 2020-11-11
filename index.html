@@ -602,7 +602,7 @@
     <script src="scripts/main.js"></script>
 	<script>
 					function load() {
-					/*var file = new XMLHttpRequest();
+					var file = new XMLHttpRequest();
 					file.open("GET", "https://becker-max.github.io/file.txt", true);
 					file.onreadystatechange = function() {
 					  if (file.readyState === 4) {  // Makes sure the document is ready to parse
@@ -612,14 +612,8 @@
 						  alert("hoi1");
 						}
 					  }
-					}*/
-					var fs = require('fs');
-					fs.readFile('file.txt', function (err, textbla) {
-										if (err) throw err;
-
-						console.log(textbla);
-					});
-					document.getElementById("aboutTest").innerHTML = textbla;
+					}
+					console.log(file);
 				}
 
 				window.onLoad = load();
