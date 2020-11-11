@@ -606,7 +606,7 @@
     <script src="scripts/main.js"></script>
 	<script>
 				function load(lang) {
-				alert(lang+"2");
+				var language = lang;
 				fetch('/text/'+lang+'/about.txt')
 				  .then(response => response.text())
 				  .then(text => document.getElementById("aboutTest").innerText=text)
@@ -614,21 +614,17 @@
 				}
 				
 				$('#chngLanguage').click(function() {
-					alert(language+"3");
+					alert(language+"1");
 				  if (language==="en"){
 				  language="de";
-				  alert(language+"4");
+				  alert(language+"2");
 				  }else{
 				  language="en";
 				  }
 				  load(language);
 				});
 				
-				window.onLoad = function(){
-				var language = "en"
-				alert(language+"1");
-				load(language)
-				}
+				window.onLoad = load("en");
 	</script>
   </body>
 </html>
