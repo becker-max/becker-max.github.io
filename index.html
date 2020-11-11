@@ -615,15 +615,12 @@
 				fetch('/text/'+x+'/lukb.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("lukb").innerHTML=text)
-				}
 				fetch('/text/'+x+'/profidata.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("profidata").innerHTML=text)
-				}
 				fetch('/text/'+x+'/swissquote.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("swissquote").innerHTML=text)
-				}
 				fetch('/text/'+x+'/ukb.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("ukb").innerHTML=text)
