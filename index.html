@@ -606,8 +606,8 @@
     <script src="scripts/main.js"></script>
 	<script>
 	var language = "en";
-				function load(lang) {
-				fetch('/text/'+lang+'/about.txt')
+				function load(x) {
+				fetch('/text/'+x+'/about.txt')
 				  .then(response => response.text())
 				  .then(text => document.getElementById("aboutTest").innerText=text)
 				  .then(text => console.log(text))
