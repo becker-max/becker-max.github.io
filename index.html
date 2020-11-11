@@ -601,19 +601,15 @@
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
 	<script>
-					function load() {
-					var file = new XMLHttpRequest();
-					file.open("GET", "file://file.txt", false);
-					file.onreadystatechange = function() {
-					  if (file.readyState === 4) {  // Makes sure the document is ready to parse
-						if (file.status === 200 || file.status == 0) {  // Makes sure it's found the file
-						  text = file.responseText;
-						  document.getElementById("aboutTest").innerHTML = text;
-						  alert("hoi1");
+				function load() {
+					var xhttp = new XMLHttpRequest();
+					xhttp.onreadystatechange = function() {
+						if (this.readyState == 4 && this.status == 200) {
+						   // Typical action to be performed when the document is ready:
+						   document.getElementById("aboutTest").innerHTML = xhttp.responseText;
 						}
-					  }
-					}
-					console.log(file.readyState);
+					};
+					xhttp.open("GET", "file.txt", true);
 				}
 
 				window.onLoad = load();
