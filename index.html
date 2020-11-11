@@ -605,7 +605,7 @@
     <script src="scripts/main.js"></script>
 	<script>
 				function load() {
-				fetch('file.txt')
+				fetch('/text/en/about.txt')
 				  .then(response => response.text())
 				  .then(text => document.getElementById("aboutTest").innerText=text)
 				  .then(text => console.log(text))
