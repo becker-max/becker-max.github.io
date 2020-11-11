@@ -605,8 +605,10 @@
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
 	<script>
+	var language = "en";
 				function load(lang) {
-				var language = lang;
+				alert(lang);
+				alert(language);
 				fetch('/text/'+lang+'/about.txt')
 				  .then(response => response.text())
 				  .then(text => document.getElementById("aboutTest").innerText=text)
@@ -614,17 +616,15 @@
 				}
 				
 				$('#chngLanguage').click(function() {
-					alert(language+"1");
 				  if (language==="en"){
 				  language="de";
-				  alert(language+"2");
 				  }else{
 				  language="en";
 				  }
 				  load(language);
 				});
 				
-				window.onLoad = load("en");
+				window.onLoad = load(language);
 	</script>
   </body>
 </html>
