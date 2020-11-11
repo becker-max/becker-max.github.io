@@ -607,7 +607,7 @@
 				function load() {
 				fetch('file.txt')
 				  .then(response => response.text())
-				  .then(text => document.getElementById("aboutTest").innerHTML=text)
+				  .then(text => document.getElementById("aboutTest").innerHTML=text;console.log(text))
 				}
 
 				window.onLoad = load();
