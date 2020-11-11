@@ -1,0 +1,35 @@
+<ul><li>
+Aufgaben
+</li><ul><li>
+Betreuung, Unterhalt und LifeCycle Management von verschiedenen Apps, Webseite Verkauf Strukturierter Produkte mit Anbindung an Kernbankenapplikation(Avaloq)
+</li><li>
+2nd und 3rd Level Application Support gemäss ITIL Prozesse 
+</li><li>
+App-Weiterentwicklungen, Weiterentwicklung der Produkthomepage (Strukturierte Produkte bei LUKB)
+</li><li>
+Change-, Incident-, Release- und Test Management 
+</li><li>
+Einführung, Betreuung und Konfiguration von Testautomationssoftware (Eggplant): Installation und Konfiguration der Software und Serverapplikation (Mac iOS), Einrichten der Testgeräte (Apple, Android Devices und Konfiguration an Server), Scripting der Testfälle  
+</li><li>
+Unterstützung bei Migrationen und Anpassungen
+</li><li>
+Stakeholdermanagement
+</li></ul><li>
+Technologien 
+</li><ul><li>
+Jira
+</li><li>
+HP Quality Center
+</li><li>
+Opus
+</li><li>
+Eggplant SenseTalk
+</li><li>
+Linux
+</li><li>
+Mac OS
+</li><li>
+Shell Scripts
+</li><li>
+Bash
+</li></ul></ul>

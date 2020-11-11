@@ -381,7 +381,7 @@
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
             <div class="h5">Junior Business Consultant</div>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+            <p id=profidata"></p>
           </div>
         </div>
       </div>
@@ -397,7 +397,7 @@
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
             <div class="h5">Team Member Costumer Care</div>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+            <p id="swissquote"></p>
           </div>
         </div>
       </div>
@@ -413,7 +413,7 @@
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
             <div class="h5">Apprenticeship Mediamatiker EFZ</div>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+            <p id="ukb"></p>
           </div>
         </div>
       </div>
@@ -615,6 +615,18 @@
 				fetch('/text/'+x+'/lukb.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("lukb").innerHTML=text)
+				}
+				fetch('/text/'+x+'/profidata.txt')
+					.then(response => response.text())
+					.then(text => document.getElementById("profidata").innerHTML=text)
+				}
+				fetch('/text/'+x+'/swissquote.txt')
+					.then(response => response.text())
+					.then(text => document.getElementById("swissquote").innerHTML=text)
+				}
+				fetch('/text/'+x+'/ukb.txt')
+					.then(response => response.text())
+					.then(text => document.getElementById("ukb").innerHTML=text)
 				}
 				
 				$('#chngLanguage').click(function() {

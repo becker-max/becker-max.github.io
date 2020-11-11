@@ -1,0 +1,15 @@
+<ul><li>
+Tasks 
+</li><ul><li>
+1st Level Application Support according to ITIL processes
+</li><li>
+Stakeholder Management 
+</li><li>
+On-call service
+</li></ul><li>
+Technologies 
+</li><ul><li>
+MS Office
+</li><li>
+internal CRM software
+</li></ul></ul>

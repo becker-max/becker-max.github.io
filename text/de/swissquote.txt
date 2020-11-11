@@ -1,0 +1,15 @@
+<ul><li>
+Aufgaben 
+</li><ul><li>
+1st Level Application Support gemäss ITIL Prozesse
+</li><li>
+Stakeholdermanagement 
+</li><li>
+Pikettdienst
+</li></ul><li>
+Technologien 
+</li><ul><li>
+MS Office
+</li><li>
+interne CRM Software
+</li></ul></ul>

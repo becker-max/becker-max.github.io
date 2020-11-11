@@ -1,0 +1,55 @@
+<ul><li>
+Aufgaben
+</li><ul><li>
+Betreuung, Unterhalt und LifeCycle Management von XENTIS
+</li><li>
+Entgegennahme der Kunden-Issues im Service Desk (Telefon, Mail und Issue Tracking-Tool)
+</li><li>
+2nd und 3rd Level Application Support gemäss ITIL Prozesse 
+</li><li>
+Analyse, Erarbeiten von Workarounds, Priorisieren der Fehler, Reproduktion
+</li><li>
+Testen von Lösungen sowie Umsetzen der Lösungen mittels Parametrisierung
+</li><li>
+Durchführung von Tests (Integrationstests und fachspezifische Tests) neuere Releases und Fixes der Software (XENTIS Investment Management System)
+</li><li>
+Koordination der Rollouts von Releases und Patches beim Kunden auf Test- und Produktionsumgebungen
+</li><li>
+Parametrisierung von Releases und Patches auf Test- und Produktionsumgebungen
+</li><li>
+Incidentmanagement bei Produktionsverhindernden Störungen: Analyse, Eskalation, Workaround und Koordinieren der Auslieferungen von Korrekturen per Hotfix
+</li><li>
+Stakeholdermanagement
+</li><li>
+Durchführung von Applikationspräsentationen für Stellenbewerber und neue Mitarbeiter
+</li><li>
+Reparatur inkonsistenter Tabellen, Manipulation und Eingriff auf Live Daten (Notszenario), SQL Scripting für Datenmigration bei Neukunden
+</li><li>
+Risiko Management und Dokumentation
+</li><li>
+Priorisierungen, Weiterentwicklung und Eskalation beim Product Owner
+</li><li>
+Pikettdienst
+</li><li></ul><li>
+Technologien 
+</li><ul><li>
+Oracle RDBMS
+</li><li>
+Linux Redhat
+</li><li>
+SQL
+</li><li>
+Java
+</li><li>
+MS SQL Server
+</li><li>
+Shell Scripts
+</li><li>
+Bash
+</li><li>
+Xentis
+</li><li>
+Windows
+</li><li>
+Unix
+</li></ul></ul>
