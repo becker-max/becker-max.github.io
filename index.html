@@ -613,11 +613,18 @@
 				}
 				
 				$('#chngLanguage').click(function() {
-				  alert($(this).text());
-				  load("de")
+				  if (lang==="en"){
+				  lang="de";
+				  }else{
+				  lang="en";
+				  }
+				  load(lang);
 				});
-
-				window.onLoad = load("en");
+				
+				window.onLoad = function(){
+				var lang = "en"
+				load(lang)
+				}
 	</script>
   </body>
 </html>
