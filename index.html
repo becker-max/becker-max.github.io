@@ -607,9 +607,10 @@
 						if (this.readyState == 4 && this.status == 200) {
 						   // Typical action to be performed when the document is ready:
 						   document.getElementById("aboutTest").innerHTML = xhttp.responseText;
+						   alert("hoi");
 						}
 					};
-					xhttp.open("GET", "file.txt", true);
+					xhttp.open("GET", "File:\\\file.txt", false);
 					console.log(xhttp);
 				}
 
