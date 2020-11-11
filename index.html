@@ -43,7 +43,7 @@
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/max.jpg" alt="Image"/></a></div>
           <div class="h2 title">Maximilian Becker</div>
-          <p class="category text-white">Application Manager, Student for Business IT,  Data Analyst</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Change language</a>
+          <p class="category text-white">Application Manager, Student for Business IT,  Data Analyst</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
         </div>
       </div>
       <div class="section">
@@ -603,10 +603,10 @@
 	<script>
 					function load() {
 					var file = new XMLHttpRequest();
-					file.open("GET", "https://becker-max.github.io/file.txt", true);
+					file.open("GET", "file://file.txt", false);
 					file.onreadystatechange = function() {
 					  if (file.readyState === 4) {  // Makes sure the document is ready to parse
-						if (file.status === 200) {  // Makes sure it's found the file
+						if (file.status === 200 || file.status == 0) {  // Makes sure it's found the file
 						  text = file.responseText;
 						  document.getElementById("aboutTest").innerHTML = text;
 						  alert("hoi1");
