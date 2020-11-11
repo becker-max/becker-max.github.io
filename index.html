@@ -250,14 +250,14 @@
         <div class="ml-auto mr-auto">
           <div class="row">
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://becker-max.github.io/attachments/zeugnisHSLU.pdf">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://becker-max.github.io/attachments/zeugnisHSLU.pdf">
                   <figure class="cc-effect"><img src="images/hochschule-luzern.png" alt="Image"/>
                     <figcaption>
                       <div class="h4">University Grades</div>
                       <p>Grade record of Lucerne University of Applied Sciences and Arts</p>
                     </figcaption>
                   </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://becker-max.github.io/attachments/zeugnisBBZW.pdf">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://becker-max.github.io/attachments/zeugnisBBZW.pdf">
                   <figure class="cc-effect"><img src="images/bbzwSursee.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">BBZW Sursee</div>
@@ -266,7 +266,7 @@
                   </figure></a></div>
             </div>
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://becker-max.github.io/attachments/cae.pdf">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://becker-max.github.io/attachments/cae.pdf">
                   <figure class="cc-effect"><img src="cae.png" alt="Image"/>
                     <figcaption>
                       <div class="h4">Certificate in Advanced English</div>
@@ -452,7 +452,7 @@
           <div class="card-body">
             <div class="h5">BBZW Sursee</div>
             <p class="category">EFZ with a vocational matriculation qualification</p>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+            <p id="textBBZW"></p>
           </div>
         </div>
       </div>
@@ -468,8 +468,8 @@
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
             <div class="h5">General Education</div>
-            <p class="category">School of Secondary board</p>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+            <p class="category">School of Secondary board in Emmetten</p>
+            <p id="textSEK"></p>
           </div>
         </div>
       </div>
@@ -627,6 +627,13 @@
 				fetch('/text/'+x+'/hslu.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("textHSLU").innerHTML=text)
+				fetch('/text/'+x+'/bbzw.txt')
+					.then(response => response.text())
+					.then(text => document.getElementById("textBBZW").innerHTML=text)
+				fetch('/text/'+x+'/sek.txt')
+					.then(response => response.text())
+					.then(text => document.getElementById("textSEK").innerHTML=text)
+					
 					
 				document.getElementById("subCatTitle").innerHTML="Project Portfolio"
 				}
