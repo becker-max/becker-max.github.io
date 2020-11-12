@@ -636,7 +636,7 @@
 					.then(text => document.getElementById("textSEK").innerHTML=text)
 				fetch('/text/'+x+'/tschaer.txt')
 					.then(response => response.text())
-					.then(text => document.getElementById("tschaer").innerText=text)
+					.then(text => document.getElementById("tschaer").innerHTML=text)
 					
 					
 				document.getElementById("subCatTitle").innerHTML="Project Portfolio"
