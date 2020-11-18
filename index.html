@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Creative CV</title>
-    <meta name="description" content="Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience."/>
+    <title>Max Becker CV and Project Portfolio</title>
+    <meta name="description" content="Hi! My name is Max Becker and I'm glad you're visiting my site! Feel free to explore my skills and my experience and don't hesitate to contact me."/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
@@ -62,7 +62,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">About</div>
+            <div class="h4 mt-0 title" id="aboutTitle"></div>
 				<div id="aboutTest"></div>
             <!--
 			<p>Hello! I am Max Becker. Application Manager, Student for Business IT,  Data Analyst.</p>
@@ -608,6 +608,8 @@
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
 	<script>
+	const titleMap = new Map();
+	
 	var language = "en";
 				function load(x) {
 				fetch('/text/'+x+'/about.txt')
@@ -638,8 +640,18 @@
 					.then(response => response.text())
 					.then(text => document.getElementById("tschaer").innerHTML=text)
 					
+				if (x =="en"){
+					document.getElementById("aboutTitle").innerText=titleMap.get('aboutTitle')[0]
+				}else{
+					document.getElementById("aboutTitle").innerText=titleMap.get('aboutTitle')[1]
+				}
+					
 					
 				document.getElementById("subCatTitle").innerHTML="Project Portfolio"
+				}
+				
+				function initTitles(){
+				titleMap.set("aboutTitle",["About","Über mich"])
 				}
 				
 				$('#chngLanguage').click(function() {
@@ -664,7 +676,10 @@
 					document.getElementById("subCatTitle").innerHTML="Personal Impressions"
 				});
 				
-				window.onLoad = load(language);
+				window.onLoad = function(){
+				load(language);
+				initTitles();
+				}
 	</script>
   </body>
 </html>
