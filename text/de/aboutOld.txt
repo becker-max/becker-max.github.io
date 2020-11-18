@@ -1,0 +1,19 @@
+Hallo! Name ist Max Becker. Im Moment besuche ist die Hochschule Luzern, um meinen Bachelor-Abschluss in Wirtschaftsinformatik mit dem Schwerpunkt Data Science & Engineering zu machen.
+
+Datenwissenschaften haben mich schon immer interessiert. Seit meinen ersten Berührungspunkten mit IT bin ich immer wieder in Datenstrukturen gelandet. Seien das riesige Excel-Sheets, Datenbanken, Protokolle oder der Gleichen. Somit habe ich in jeder Firma, in der ich gearbeitet habe, Analysen und Bewirtschaftung dieser Strukturen auf Makro- oder Mikro-Unternehmensebene getätigt.
+
+Der finale Anstoss, der den Stein des Interesses ins Rollen gebracht hat, war das Fach BDLC (Big Data Lab Cluster) im 4. Semester. Dort habe ich mit mehreren Big Data Technologien gearbeitet und habe für ein Projekt den gesamten Lebenszyklus von Daten entwerfen dürfen. Vom ETL Prozess mit einer API als Quelle, über das Einspeisen der Daten in das Hadoop-Framework (namentlich HDFS). Dort habe ich die Daten über pySpark mit einem Python-Script für spätere Analysen strukturiert und diese mit Zeppelin visualisiert.
+
+Seit diesem Modul habe ich mehrere Module genommen, bei denen sich alles um Datascience und Business Intelligence dreht. Namentlich BIDS (Business Intelligence Decision Support), DAWA (Data Warehousing) und DASB (Data Science Basics) allein im letzten Semester. Allein in diesen Modulen konnte ich breites Wissen über Business Intelligence und Datascience in der Theorie und in der Praxis aufbauen und bin daher versiert in Technologien wie R, Python, SSIS-Prozessen und Mathematischen Analysen (wie zum Beispiel Clustering und k-Means Analysen)  in der Praxis und den Philosophien rund um Data Science und Business Intelligence in der Theorie.
+
+Das Finden von Ordnung im Chaos und daraus statistische Analysen für unternehmerisch wertvolle Aussagen zu Tätigen ist mein Modus Operandi.
+
+Außerhalb meiner beruflichen Interessen bin ich eine sehr aufgestellte Persönlichkeit. Ich kann mich mit jedem anfreunden und habe keinerlei Reservationen auf Menschen zuzugehen. Ich bin sehr zielstrebig und wenn ich mir etwas vorgenommen habe, arbeite ich unermüdlich daran, dieses Ziel zu erreichen.
+
+Meine Disziplin rührt von meiner jahrelangen Erfahrung im Powerlifting (Gewichtheben), wo man einen Trainings- und Ernährungsplan befolgen muss, um nach jedem Trainingszyklus immer höhere Zahlen zu erreichen. Was mir an diesem Sport so gefällt, ist das Greifbare Messen der vorgenommenen Zeile. Die Messung gestaltet sich nämlich als äusserst simpel. Entweder man schafft die Wiederholung mit dem Gewicht – oder eben nicht.
+
+Ich wende diese Philosophie gerne auf das tägliche Leben an. Ich mag es nicht um den heissen Brei zu reden. Entweder die Ziele wurden erreicht oder nicht. Und wenn nicht, werden die Routinen und Angewohnheiten so angepasst, dass die Ziele gefälligst beim nächsten Mal erreicht werden.
+
+Seit diesem Jahr bin ich auch einem Verein beigetreten und trete an der diesjährigen Schweizer Meisterschaft im Kraftdreikampf (Powerlifting) an.
+
+Da ich noch immer für ein Jahr im Bachelor-Studium bin, müsste ich ein 60-70% Pensum (bei 1.5 Tagen Schule in der Woche) antreten.

@@ -22,12 +22,12 @@
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
               <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about" id="aboutBtn"></a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
-				<li class="nav-item"><a class="nav-link smooth-scroll" href="#reference">References</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience" id="expBtn"></a></li>
+				<li class="nav-item"><a class="nav-link smooth-scroll" href="#reference" id="refBtn"></a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact" id="conBtn"></a></li>
 				<li id="chngLanguage" class="nav-item"><a class="nav-link smooth-scroll">Change Language</a></li>
               </ul>
             </div>
@@ -82,7 +82,7 @@
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="h4 mt-0 title" id="basicTitle"></div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
               <div class="col-sm-8">27</div>
@@ -328,7 +328,7 @@
 </div>
 <div class="section" id="experience">
   <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Work Experience</div>
+    <div class="h4 text-center mb-4 title" id="workTitle"></div>
     <div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
@@ -413,7 +413,7 @@
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Apprenticeship Mediamatiker EFZ</div>
+            <div class="h5" id="titleAppr"></div>
             <p id="ukb"></p>
           </div>
         </div>
@@ -423,7 +423,7 @@
 </div>
 <div class="section">
   <div class="container cc-education">
-    <div class="h4 text-center mb-4 title">Education</div>
+    <div class="h4 text-center mb-4 title" id="eduTitle"></div>
     <div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
@@ -435,7 +435,7 @@
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
             <div class="h5">Hochschule Luzern</div>
-            <p class="category">Bachelor in Business IT - Major in Data Science & Engineering</p>
+            <p class="category" id="subTitleHslu"></p>
             <p id="textHSLU"></p>
           </div>
         </div>
@@ -446,13 +446,13 @@
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header">
             <p>2009 - 2013</p>
-            <div class="h5">Apprenticeship Mediamatiker EFZ</div>
+            <div class="h5" id="titleAppr2"></div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
             <div class="h5">BBZW Sursee</div>
-            <p class="category">EFZ with a vocational matriculation qualification</p>
+            <p class="category" id="titleBBZW"></p>
             <p id="textBBZW"></p>
           </div>
         </div>
@@ -463,13 +463,13 @@
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header">
             <p>2006 - 2008</p>
-            <div class="h5">Secondary School</div>
+            <div class="h5" id="subTitleEdu"></div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">General Education</div>
-            <p class="category">School of Secondary board in Emmetten</p>
+            <div class="h5" id="subTitleEdu2"></div>
+            <p class="category" id="subTitleEdu3"></p>
             <p id="textSEK"></p>
           </div>
         </div>
@@ -479,7 +479,7 @@
 </div>
 <div class="section" id="reference">
   <div class="container cc-reference">
-    <div class="h4 mb-4 text-center title">References</div>
+    <div class="h4 mb-4 text-center title" id="refTitle"></div>
     <div class="card" data-aos="zoom-in">
       <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -492,7 +492,7 @@
             <div class="row">
               <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/tschaer.jpg" alt="Image"/>
                 <div class="h5 pt-2">Tobias Schär</div>
-                <p class="category">Gründer / Präsident wir-lernen-weiter.ch</p>
+                <p class="category" id="tobiTitle"></p>
               </div>
               <div class="col-lg-10 col-md-9">
                 <p id="tschaer"></p>
@@ -608,7 +608,23 @@
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
 	<script>
-	const titleMap = new Map();
+	const titleMap = new Map().set("aboutTitle",["About","Über mich"])
+								.set("basicTitle",["Basic Information","Allgemeine Infos"])
+								.set("workTitle",["Work Experience","Arbeitserfahrung"])
+								.set("eduTitle",["Education","Ausbildung"])
+								.set("refTitle",["References","Referenzen"])
+								.set("expBtn",["Experience","Erfahrung"])
+								.set("refBtn",["References","Referenzen"])
+								.set("conBtn",["Contact","Kontakt"])
+								.set("tobiTitle",["Founder / President wir-lernen-weiter.ch","Gründer / Präsident wir-lernen-weiter.ch"])
+								.set("subTitleHslu",["Bachelor in Business IT - Major in Data Science & Engineering","Bachelor in Wirtschaftsinformatik - Major in Data Science & Engineering"])
+								.set("subTitleEdu",["Secondary School","Sekundarschule"])
+								.set("subTitleEdu2",["General Education","Allgemeine Schulbildung"])
+								.set("subTitleEdu3",["School of Secondary board in Emmetten","3. ORS Emmetten"])
+								.set("titleAppr",["Apprenticeship Mediamatiker EFZ","Lehre Mediamatiker EFZ"])
+								.set("titleBBZW",["EFZ with a vocational matriculation qualification","EFZ mit Berufsmatura"])
+								;
+	
 	var language = "en";
 				function load(x) {
 				fetch('/text/'+x+'/about.txt')
@@ -639,22 +655,42 @@
 					.then(response => response.text())
 					.then(text => document.getElementById("tschaer").innerHTML=text)
 				
-				/*
-				if (x =="en"){
-					document.getElementById("aboutTitle").innerText=titleMap.get('aboutTitle')[0];
-					console.log(titleMap.get('aboutTitle')[0]);
-				}else{
-					document.getElementById("aboutTitle").innerText=titleMap.get('aboutTitle')[1];
-					console.log(titleMap.get('aboutTitle')[1]);
-				}*/
+				
+					if (x =="en"){
+						arr = 0;
+					}else{
+					 arr = 1;
+					}
 					
-					
-				document.getElementById("subCatTitle").innerHTML="Project Portfolio"
+				document.getElementById("aboutTitle").innerText=titleMap.get('aboutTitle')[arr];
+				document.getElementById("basicTitle").innerText=titleMap.get('basicTitle')[arr];
+				document.getElementById("workTitle").innerText=titleMap.get('workTitle')[arr];
+				document.getElementById("eduTitle").innerText=titleMap.get('eduTitle')[arr];
+				document.getElementById("refTitle").innerText=titleMap.get('refTitle')[arr];
+				document.getElementById("aboutBtn").innerText=titleMap.get('aboutTitle')[arr];
+				document.getElementById("expBtn").innerText=titleMap.get('expBtn')[arr];
+				document.getElementById("refBtn").innerText=titleMap.get('refBtn')[arr];
+				document.getElementById("conBtn").innerText=titleMap.get('conBtn')[arr];
+				document.getElementById("tobiTitle").innerText=titleMap.get('tobiTitle')[arr];
+				document.getElementById("subTitleHslu").innerText=titleMap.get('subTitleHslu')[arr];
+				document.getElementById("subTitleEdu2").innerText=titleMap.get('subTitleEdu2')[arr];
+				document.getElementById("subTitleEdu3").innerText=titleMap.get('subTitleEdu3')[arr];
+				document.getElementById("subTitleEdu").innerText=titleMap.get('subTitleEdu')[arr];
+				document.getElementById("titleAppr").innerText=titleMap.get('titleAppr')[arr];
+				document.getElementById("titleAppr2").innerText=titleMap.get('titleAppr')[arr];
+				document.getElementById("titleBBZW").innerText=titleMap.get('titleBBZW')[arr];
+				
+					if($('#toggleUniPort').hasClass("active") && x=="en"){
+						document.getElementById("subCatTitle").innerText="Grades and Certificates";
+						alert("bla1");
+					}else if ($('#toggleUniPort').hasClass("active") && x=="de"){
+						document.getElementById("subCatTitle").innerText="Zeugnisse und Zertifikate";
+						alert("bla2");
+					}else{
+						document.getElementById("subCatTitle").innerText="Project Portfolio";
+					}
 				}
 				
-				function initTitles(){
-				titleMap.set("aboutTitle",["About","Über mich"]);
-				}
 				
 				$('#chngLanguage').click(function() {
 				  if (language==="en"){
@@ -663,15 +699,22 @@
 				  language="en";
 				  }
 				  load(language);
-				  document.getElementById("toggleProdPort").selected = true;
 				});
 				
 				$('#toggleProdPort').click(function() {
 					document.getElementById("subCatTitle").innerHTML="Project Portfolio";
+					//$('#toggleUniPort').removeClass("active"); 
+					//$(this).addClass("active"); 
 				});
 				
 				$('#toggleUniPort').click(function() {
+					if (language=="en"){
 					document.getElementById("subCatTitle").innerHTML="Grades and Certificates"
+					}else{
+					document.getElementById("subCatTitle").innerHTML="Zeignisse und Zertifikate"
+					}
+					//$('#toggleProdPort').removeClass("active"); 
+					//$(this).addClass("active");
 				});
 			
 				$('#togglePersonal').click(function() {
