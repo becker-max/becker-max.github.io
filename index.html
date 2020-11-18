@@ -641,9 +641,11 @@
 					.then(text => document.getElementById("tschaer").innerHTML=text)
 					
 				if (x =="en"){
-					document.getElementById("aboutTitle").innerText=titleMap.get('aboutTitle')[0]
+					document.getElementById("aboutTitle").innerText=titleMap.get('aboutTitle')[0];
+					console.log(titleMap.get('aboutTitle')[0]);
 				}else{
-					document.getElementById("aboutTitle").innerText=titleMap.get('aboutTitle')[1]
+					document.getElementById("aboutTitle").innerText=titleMap.get('aboutTitle')[1];
+					console.log(titleMap.get('aboutTitle')[1]);
 				}
 					
 					
@@ -679,6 +681,7 @@
 				window.onLoad = function(language){
 				load(language);
 				initTitles();
+				alert("bla");
 				}
 	</script>
   </body>
