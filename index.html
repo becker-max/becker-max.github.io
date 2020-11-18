@@ -609,7 +609,6 @@
     <script src="scripts/main.js"></script>
 	<script>
 	const titleMap = new Map();
-	
 	var language = "en";
 				function load(x) {
 				fetch('/text/'+x+'/about.txt')
@@ -639,21 +638,22 @@
 				fetch('/text/'+x+'/tschaer.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("tschaer").innerHTML=text)
-					
+				
+				/*
 				if (x =="en"){
 					document.getElementById("aboutTitle").innerText=titleMap.get('aboutTitle')[0];
 					console.log(titleMap.get('aboutTitle')[0]);
 				}else{
 					document.getElementById("aboutTitle").innerText=titleMap.get('aboutTitle')[1];
 					console.log(titleMap.get('aboutTitle')[1]);
-				}
+				}*/
 					
 					
 				document.getElementById("subCatTitle").innerHTML="Project Portfolio"
 				}
 				
 				function initTitles(){
-				titleMap.set("aboutTitle",["About","Über mich"])
+				titleMap.set("aboutTitle",["About","Über mich"]);
 				}
 				
 				$('#chngLanguage').click(function() {
