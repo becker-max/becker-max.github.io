@@ -1,31 +1,20 @@
-<p>Guten Tag! Mein Name ist Max Becker. Im Moment besuche ich die Hochschule Luzern, um meinen Bachelor-Abschluss in Wirtschaftsinformatik mit dem Schwerpunkt Data Science & Engineering zu machen.
-</p>
-<h4>Warum Data Science?</h4>
-<p>
+Guten Tag! Mein Name ist Max Becker. Im Moment besuche ich die Hochschule Luzern, um meinen Bachelor-Abschluss in Wirtschaftsinformatik mit dem Schwerpunkt Data Science & Engineering zu machen.
+
 Datenwissenschaften haben mich schon immer interessiert. Seit meinen ersten Berührungspunkten mit IT haben mich immer wieder Datenstrukturen fasziniert, seien das riesige Excel-Sheets, Datenbanken, Protokolle oder dergleichen. Somit habe ich in jeder Firma, in der ich gearbeitet habe, Analysen und Bewirtschaftung dieser Strukturen auf Makro- oder Mikro-Unternehmensebene getätigt.
-</p>
-<p>
+
 Der finale Anstoss, der den Stein des Interesses ins Rollen gebracht hat, war das Fach BDLC (Big Data Lab Cluster) im 4. Semester. Dort habe ich mit mehreren Big Data Technologien gearbeitet und habe für ein Projekt den gesamten Lebenszyklus von Daten entwerfen dürfen, vom ETL Prozess mit einer API als Quelle, bis über das Einspeisen der Daten in das Hadoop-Framework (namentlich HDFS). Dort habe ich die Daten über pySpark mit einem Python-Script für spätere Analysen strukturiert und diese mit Zeppelin visualisiert.
-</p>
-<p>
+
 Seit diesem Modul habe ich mehrere Module belegt, bei denen der Hauptaugenmerk auf Datascience und Business Intelligence liegt, namentlich BIDS (Business Intelligence Decision Support), DAWA (Data Warehousing) und DASB (Data Science Basics) allein im letzten Semester. In allen diesen Modulen konnte ich breites Wissen über Business Intelligence und Datascience in der Theorie und in der Praxis aufbauen und bin daher versiert in Technologien wie R, Python, SSIS-Prozessen und Mathematischen Analysen (wie zum Beispiel Clustering und k-Means Analysen) in der Praxis und den Philosophien rund um Data Science und Business Intelligence in der Theorie, zu arbeiten.
-</p>
-<h4>Warum ich?</h4>
-<p>
+
 Das Finden von Ordnung im Chaos und daraus statistische Analysen für unternehmerisch wertvolle Aussagen zu tätigen ist mein Modus Operandi.
-</p>
-<p>
+
 Außerhalb meiner beruflichen Interessen bin ich eine sehr aufgestellte Persönlichkeit. Ich kann mich mit jedem anfreunden und habe keinerlei Reservationen auf Menschen zuzugehen. Ich bin sehr zielstrebig und wenn ich mir etwas vorgenommen habe, arbeite ich unermüdlich daran, dieses Ziel zu erreichen.
-</p>
-<p>
+
 Meine Disziplin rührt von meiner jahrelangen Erfahrung im Powerlifting (Gewichtheben), wo man einen Trainings- und Ernährungsplan befolgen muss, um nach jedem Trainingszyklus immer höhere Zahlen zu erreichen. Was mir an diesem Sport so gefällt, ist das greifbare Messen der vorgenommenen Zeile. Die Messung gestaltet sich nämlich als äusserst simpel. Entweder man schafft die Wiederholung mit dem Gewicht – oder eben nicht.
-</p>
-<p>
+
 Ich wende diese Philosophie gerne auf das tägliche Leben an. Ich mag es in Diskussionen oder Workshops nicht, wenn man seine Ziele nicht definieren kann oder den Weg, mit dem man sie erreichen möchte nicht beschreiben kann. Wenn die Zielvorgabe nicht erreicht wird, müssen Routinen und Prozesse hinterfragt werden, angepasst werden um möglichst ein Ergebnis zu erzielen. 
-</p>
-<p>
+
 Seit diesem Jahr bin ich auch einem Verein beigetreten und trete an der diesjährigen Schweizer Meisterschaft im Kraftdreikampf (Powerlifting) an.
-</p>
-<p>
+
 Da ich noch immer für ein Jahr im Bachelor-Studium bin, müsste ich ein 60-70% Pensum (bei 1.5 Tagen Schule in der Woche) antreten.
-</p>
+
