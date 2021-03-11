@@ -2,7 +2,7 @@
 
 <p>Currently, I am attending the Lucerne University of Applied Sciences and Arts to complete my bachelor’s degree in Business IT majoring in Data Science & Engineering.</p>
 
-<h4>Why Data Science?</h4>
+<div class="h4 mt-0 title">Why Data Science?</div>
 <p>
 I always took great interest in data sciences. Since having my first experiences with IT, I have always ended up having tasks in data structures. Be it huge Excel sheets, databases, log files or the like. Due to these experiences, in every company I have ever worked in, I ended up doing analyses, maintenance, or management of such structures at macro or micro level of that company.
 </p>
@@ -14,7 +14,7 @@ The final impulse that set my whish in pursuing data science on a deeper level i
 After that I have taken several courses having everything about data science and business intelligence as a subject. Namely BIDS (Business Intelligence Decision Support), DAWA (Data Warehousing) and DASB (Data Science Basics) already in the last semester. Next semester I will attend the courses Machine Learning and Knowledge Based Decision Systems. In these courses alone, I was able to build up a broad knowledge of business intelligence and data science in theory and practice. I am therefore well versed in technologies such as R, Python, SSIS processes and mathematical analysis (such as clustering and k-Means analysis and the like) in practice and the philosophies around data science and business intelligence in theory.
 </p>
 
-<h4>Why me?</h4>
+<div class="h4 mt-0 title">Why me?</div>
 <p>
 My modus operandi is to find order in chaos and using this structured information to make valuable analyses for optimized decision support.
 </p>

@@ -1,6 +1,6 @@
 <p>Guten Tag! Mein Name ist Max Becker. Im Moment besuche ich die Hochschule Luzern, um meinen Bachelor-Abschluss in Wirtschaftsinformatik mit dem Schwerpunkt Data Science & Engineering zu machen.
 </p>
-<h4>Warum Data Science?</h4>
+<div class="h4 mt-0 title">Warum Data Science?</div>
 <p>
 Datenwissenschaften haben mich schon immer interessiert. Seit meinen ersten Berührungspunkten mit IT haben mich immer wieder Datenstrukturen fasziniert, seien das riesige Excel-Sheets, Datenbanken, Protokolle oder dergleichen. Somit habe ich in jeder Firma, in der ich gearbeitet habe, Analysen und Bewirtschaftung dieser Strukturen auf Makro- oder Mikro-Unternehmensebene getätigt.
 </p>
@@ -10,7 +10,7 @@ Der finale Anstoss, der den Stein des Interesses ins Rollen gebracht hat, war da
 <p>
 Seit diesem Modul habe ich mehrere Module belegt, bei denen der Hauptaugenmerk auf Datascience und Business Intelligence liegt, namentlich BIDS (Business Intelligence Decision Support), DAWA (Data Warehousing) und DASB (Data Science Basics) allein im letzten Semester. In allen diesen Modulen konnte ich breites Wissen über Business Intelligence und Datascience in der Theorie und in der Praxis aufbauen und bin daher versiert in Technologien wie R, Python, SSIS-Prozessen und Mathematischen Analysen (wie zum Beispiel Clustering und k-Means Analysen) in der Praxis und den Philosophien rund um Data Science und Business Intelligence in der Theorie, zu arbeiten.
 </p>
-<h4>Warum ich?</h4>
+<div class="h4 mt-0 title">Warum ich?</div>
 <p>
 Das Finden von Ordnung im Chaos und daraus statistische Analysen für unternehmerisch wertvolle Aussagen zu tätigen ist mein Modus Operandi.
 </p>
