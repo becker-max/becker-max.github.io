@@ -1,0 +1,33 @@
+<ul><li>
+Tasks
+</li><ul><li>
+Design of complex reports using Power BI and various other tools
+</li><li>
+Maintanance and design of the Data Warehouse and its tools
+</li><li>
+Developement of a complex Quality Assurance system which uses PowerBI and PowerApps to analyse anomalies which were detected using machine learning algorithms I helped create
+</li><li>
+Change, incident, release and test management 
+</li><li>
+Database administration
+</li><li>
+Azure administration
+</li></ul><li>
+Technologies 
+</li><ul><li>
+Microsoft SQL Server / SQL
+</li><li>
+Power BI
+</li><li>
+Azure
+</li><li>
+Power Apps
+</li><li>
+Power BI Paginated Report
+</li><li>
+Jira
+</li><li>
+Excel
+</li><li>
+Bash
+</li></ul></ul>
