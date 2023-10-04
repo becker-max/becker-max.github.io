@@ -1,0 +1,33 @@
+<ul><li>
+Aufgaben
+</li><ul><li>
+Erstellung von komplexen Reports mittels PowerBI und anderen Tools
+</li><li>
+Unterhalt von Data Warehouse und dessen Applikationen 
+</li><li>
+Erstellen eines komplexen Quality Assurance Systems mittels PowerBI und PowerApps, miteinbezug von Machine Learning Algorithmen
+</li><li>
+Change-, Incident-, Release- und Test Management 
+</li><li>
+Datenbankadministration
+</li><li>
+Azure Administration
+</li></ul><li>
+Technologien 
+</li><ul><li>
+Microsoft SQL Server / SQL
+</li><li>
+Power BI
+</li><li>
+Azure
+</li><li>
+Power Apps
+</li><li>
+Power BI Paginated Report
+</li><li>
+Jira
+</li><li>
+Excel
+</li><li>
+Bash
+</li></ul></ul>
