@@ -403,7 +403,7 @@
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
             <div class="h5">Data Analyst</div>
-            <p id="profidata"></p>
+            <p id="suisa"></p>
           </div>
         </div>
       </div>
@@ -739,6 +739,9 @@
 				fetch('/text/'+x+'/about.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("aboutTest").innerHTML=text)
+				fetch('/text/'+x+'/suisa.txt')
+					.then(response => response.text())
+					.then(text => document.getElementById("suisa").innerHTML=text)
 				fetch('/text/'+x+'/lukb.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("lukb").innerHTML=text)
@@ -821,7 +824,7 @@
 					if (language=="en"){
 					document.getElementById("subCatTitle").innerHTML="Grades and Certificates"
 					}else{
-					document.getElementById("subCatTitle").innerHTML="Zeignisse und Zertifikate"
+					document.getElementById("subCatTitle").innerHTML="Zeugnisse und Zertifikate"
 					}
 					//$('#toggleProdPort').removeClass("active"); 
 					//$(this).addClass("active");
