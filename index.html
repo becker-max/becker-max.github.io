@@ -45,7 +45,7 @@
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/max.jpg" alt="Image"/></a></div>
           <div class="h2 title">Maximilian Becker</div>
-          <p class="category text-white">Data Analyst, Bachelor's in Business IT, Master's in Engineering in Data Science</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" target="_blank" href="https://becker-max.github.io/attachments/CVMaxBecker.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+          <p class="category text-white">Data Analyst, Bachelor's in Business IT, Master's in Engineering in Data Science</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" target="_blank" id=CVlink href=# data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
         </div>
       </div>
       <div class="section">
@@ -770,8 +770,10 @@
 				
 					if (x =="en"){
 						arr = 0;
+						document.getElementById('CVlink').setAttribute('href', 'https://becker-max.github.io/attachments/CVMaxBecker.pdf');
 					}else{
 					 arr = 1;
+					 document.getElementById('CVlink').setAttribute('href', 'https://becker-max.github.io/attachments/CVMaxBeckerDE.pdf');
 					}
 					
 				document.getElementById("aboutTitle").innerText=titleMap.get('aboutTitle')[arr];
