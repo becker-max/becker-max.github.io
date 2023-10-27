@@ -1,6 +1,6 @@
 <p>Hello! I am Max Becker. Application Manager, Student for Business IT, Data Analyst.</p>
 
-<p>Currently, I am attending the Lucerne University of Applied Sciences and Arts to complete my bachelor’s degree in Business IT majoring in Data Science & Engineering.</p>
+<p>Currently, I am attending the Lucerne University of Applied Sciences and Arts to complete my master’s of science in engineering in data science.</p>
 
 <div class="h4 mt-0 title">Why Data Science?</div>
 <p>
