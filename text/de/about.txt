@@ -1,4 +1,4 @@
-<p>Guten Tag! Mein Name ist Max Becker. Im Moment besuche ich die Hochschule Luzern, um meinen Bachelor-Abschluss in Wirtschaftsinformatik mit dem Schwerpunkt Data Science & Engineering zu machen.
+<p>Hallo! Mein Name ist Max Becker. Im Moment besuche ich die Hochschule Luzern, um meinen Master of Science in Engineering - Data Science abzuschliessen.
 </p>
 <div class="h4 mt-0 title">Warum Data Science?</div>
 <p>
