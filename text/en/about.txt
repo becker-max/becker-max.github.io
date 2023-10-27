@@ -1,4 +1,4 @@
-<p>Hello! I am Max Becker. Application Manager, Student for Business IT, Data Analyst.</p>
+<p>Hello! I am Max Becker. Senior Data Analyst, Master of Engineering Student in Data Science.</p>
 
 <p>Currently, I am attending the Lucerne University of Applied Sciences and Arts to complete my master’s of science in engineering in data science.</p>
 
@@ -28,8 +28,8 @@ My discipline stems from my years of experience in powerlifting, where you must 
 I like to apply this philosophy to daily life. I do not like to beat about the bush. Either the goals were achieved or not. And if not, the routines and habits are adjusted so that the goals are achieved next time.
 </p>
 <p>
-Earlier this year I have also joined a club and will be competing in this year's Swiss Powerlifting Championship.
+On a personal note, I am also in a Powerlifting club and came 4th in the last Swiss National's Championship in the -93kg weight class with a total of 650kg.
 </p>
 <p>
-As I am still in my bachelor’s programme for a year, I would have to have a 60-70% workload (with 1.5 days of school per week).
+As I am still in my master's programme for a year, I would have to have a 70-80% workload (with 1.5 days of school per week).
 </p>

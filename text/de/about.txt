@@ -1,4 +1,4 @@
-<p>Hallo! Mein Name ist Max Becker. Im Moment besuche ich die Hochschule Luzern, um meinen Master of Science in Engineering - Data Science abzuschliessen.
+<p>Hallo! Mein Name ist Max Becker - Senior Data Analyst. Im Moment besuche ich die Hochschule Luzern, um meinen Master of Science in Engineering - Data Science abzuschliessen.
 </p>
 <div class="h4 mt-0 title">Warum Data Science?</div>
 <p>
@@ -24,8 +24,8 @@ Meine Disziplin rührt von meiner jahrelangen Erfahrung im Powerlifting (Gewicht
 Ich wende diese Philosophie gerne auf das tägliche Leben an. Ich mag es in Diskussionen oder Workshops nicht, wenn man seine Ziele nicht definieren kann oder den Weg, mit dem man sie erreichen möchte nicht beschreiben kann. Wenn die Zielvorgabe nicht erreicht wird, müssen Routinen und Prozesse hinterfragt werden, angepasst werden um möglichst ein Ergebnis zu erzielen. 
 </p>
 <p>
-Seit diesem Jahr bin ich auch einem Verein beigetreten und trete an der diesjährigen Schweizer Meisterschaft im Kraftdreikampf (Powerlifting) an.
+Zudem bin ich in einem Powerlifting Verein. Ich wurde 4. bei der diesjährigen Powerlifting Schweizermeisterschaft in der -93kg Gewichtsklasse mit einem Total von 650kg.
 </p>
 <p>
-Da ich noch immer für ein Jahr im Bachelor-Studium bin, müsste ich ein 60-70% Pensum (bei 1.5 Tagen Schule in der Woche) antreten.
+Da ich noch immer für ein Jahr im Master-Studium bin, müsste ich ein 70-80% Pensum (bei 1.5 Tagen Schule in der Woche) antreten.
 </p>
