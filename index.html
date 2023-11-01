@@ -108,31 +108,6 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12">
-          <div class="card-body">
-            <div class="h4 mt-0 title" id="personalImpressions"></div>
-            <div class="row">
-              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">30</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-              <div class="col-sm-8">maximilian.becker1993@gmail.com</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
-              <div class="col-sm-8">+41795507768</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-              <div class="col-sm-8">Grossmatte 30, 6014 Luzern, Schweiz</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
-              <div class="col-sm-8">German, English</div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -337,7 +312,7 @@
         <div class="ml-auto mr-auto">
           <div class="row">
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://becker-max.github.io/attachments/zeugnisHSLU.pdf">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" id=HSLUzeugnisLink href=#>
                   <figure class="cc-effect"><img src="images/hochschule-luzern.png" alt="Image"/>
                     <figcaption>
                       <div class="h4">University Grades</div>
@@ -802,9 +777,11 @@
 					if (x =="en"){
 						arr = 0;
 						document.getElementById('CVlink').setAttribute('href', 'https://becker-max.github.io/attachments/CVMaxBecker.pdf');
+						document.getElementById('HSLUzeugnisLink').setAttribute('href', 'https://becker-max.github.io/attachments/zeugnisHSLU.pdf');
 					}else{
 					 arr = 1;
-					 document.getElementById('CVlink').setAttribute('href', 'https://becker-max.github.io/attachments/CVMaxBeckerDE.pdf');
+						document.getElementById('CVlink').setAttribute('href', 'https://becker-max.github.io/attachments/CVMaxBeckerDE.pdf');
+						document.getElementById('HSLUzeugnisLink').setAttribute('href', 'https://becker-max.github.io/attachments/zeugnisHSLU_DE.pdf');
 					}
 					
 				document.getElementById("aboutTitle").innerText=titleMap.get('aboutTitle')[arr];
