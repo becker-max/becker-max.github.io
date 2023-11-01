@@ -742,7 +742,10 @@
 	
 	var language = "en";
 				function load(x) {
-				fetch('/text/'+x+'/about.txt')
+				fetch('/text/'+x+'/mse.txt')
+					.then(response => response.text())
+					.then(text => document.getElementById("textMSE").innerHTML=text)
+				fetch('/text/'+x+'/mse.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("aboutTest").innerHTML=text)
 				fetch('/text/'+x+'/suisa.txt')
