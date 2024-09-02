@@ -8,4 +8,16 @@ Development and optimization of machine learning algorithms for anomaly detectio
 Implementation of machine learning solutions in production environments at customer sites, considering specific requirements and framework conditions
 </li><li>
 Further development and optimization of our in-house data pipelines
+</li></ul><li>
+Technologies 
+</li><ul><li>
+Django
+</li><li>
+InfluxDB
+</li><li>
+Azure
+</li><li>
+Python
+</li><li>
+Pytorch
 </li></ul></ul>
