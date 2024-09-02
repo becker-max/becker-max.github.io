@@ -1,0 +1,11 @@
+<ul><li>
+Aufgaben
+</li><ul><li>
+Strukturierung, Analyse und Präsentation umfangreicher Kundendatensätze
+</li><li>
+Entwicklung und Optimierung von Machine-Learning-Algorithmen zur Anomaliedetektion in industriellen Zeitreihendaten  
+</li><li>
+Implementierung von Machine-Learning-Lösungen in Produktionsumgebungen bei Kunden vor Ort, unter Berücksichtigung spezifischer Anforderungen und Rahmenbedingungen
+</li><li>
+Weiterentwicklung und Optimierung unserer unternehmenseigenen Datenpipelines 
+</li></ul></ul>

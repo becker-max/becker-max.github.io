@@ -1,0 +1,11 @@
+<ul><li>
+Tasks
+</li><ul><li>
+Structuring, analyzing and presenting extensive customer data sets
+</li><li>
+Development and optimization of machine learning algorithms for anomaly detection in industrial time series data
+</li><li>
+Implementation of machine learning solutions in production environments at customer sites, considering specific requirements and framework conditions
+</li><li>
+Further development and optimization of our in-house data pipelines
+</li></ul></ul>
