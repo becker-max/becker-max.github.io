@@ -88,7 +88,7 @@
             <div class="h4 mt-0 title" id="basicTitle"></div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">30</div>
+              <div class="col-sm-8">31</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
@@ -100,7 +100,7 @@
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-              <div class="col-sm-8">Grossmatte 30, 6014 Luzern, Schweiz</div>
+              <div class="col-sm-8">Dammstrasse 11, 6003 Luzern, Schweiz</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
@@ -399,7 +399,23 @@
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
-            <p>August 2021 - Present</p>
+            <p>June 2024 - August 2024</p>
+            <div class="h5">Alpamayo</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Predictive Analytics Consultant</div>
+            <p id="alpamayo"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+	<div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>August 2021 - May 2024</p>
             <div class="h5">SUISA</div>
           </div>
         </div>
@@ -415,7 +431,7 @@
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
-            <p>October 2018 - Juli 2021</p>
+            <p>October 2018 - July 2021</p>
             <div class="h5">Luzerner Kantonalbank</div>
           </div>
         </div>
@@ -510,7 +526,7 @@
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header">
-            <p>2021 - Present</p>
+            <p>2022 - 2024</p>
             <div class="h5">Master's Degree</div>
           </div>
         </div>
@@ -596,6 +612,28 @@
               </div>
               <div class="col-lg-10 col-md-9">
                 <p id="tschaer"></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/LUKB.png" alt="Image"/>
+                <div class="h5 pt-2">Alpamayo</div>
+                <p class="category">Till Schoeppe / Founder</br></br></p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p>Click <a target="_blank" href="https://becker-max.github.io/attachments/Arbeitszeugnis_Alpamayo.pdf">here</a> to see entire testimonial</br></br></br></br></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/LUKB.png" alt="Image"/>
+                <div class="h5 pt-2">SUISA</div>
+                <p class="category">Jürg Ziebold / CIO</br></br></p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p>Click <a target="_blank" href="https://becker-max.github.io/attachments/ArbeitszeugnisSUISA.pdf">here</a> to see entire testimonial</br></br></br></br></p>
               </div>
             </div>
           </div>
@@ -759,6 +797,9 @@
 				fetch('/text/'+x+'/about.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("aboutTest").innerHTML=text)
+				fetch('/text/'+x+'/alpamayo.txt')
+					.then(response => response.text())
+					.then(text => document.getElementById("alpamayo").innerHTML=text)
 				fetch('/text/'+x+'/suisa.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("suisa").innerHTML=text)
