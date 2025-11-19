@@ -88,7 +88,7 @@
             <div class="h4 mt-0 title" id="basicTitle"></div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">31</div>
+              <div class="col-sm-8" id="dynamicAge">Calculating...</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
@@ -100,7 +100,7 @@
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-              <div class="col-sm-8">Dammstrasse 11, 6003 Luzern, Schweiz</div>
+              <div class="col-sm-8">Schönbühlring 18, 6005 Luzern, Schweiz</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
@@ -395,6 +395,22 @@
 <div class="section" id="experience">
   <div class="container cc-experience">
     <div class="h4 text-center mb-4 title" id="workTitle"></div>
+	<div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>November 2024 - Now</p>
+            <div class="h5">Galliker Transport Ag</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Data Engineer</div>
+            <p id="galliker"></p>
+          </div>
+        </div>
+      </div>
+    </div>
 	<div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
@@ -742,7 +758,7 @@
                 <div class="col-md-6">
                   <div class="card-body">
                     <p class="mb-0"><strong>Address </strong></p>
-                    <p class="pb-2">Grossmatte 30, 6014 Luzern, Switzerland</p>
+                    <p class="pb-2">Schönbühlring 18, 6005 Luzern, Switzerland</p>
                     <p class="mb-0"><strong>Phone</strong></p>
                     <p class="pb-2">+41795507768</p>
                     <p class="mb-0"><strong>Email</strong></p>
@@ -775,6 +791,30 @@
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
 	<script>
+
+
+    function calculateAge(birthDate) {
+        const today = new Date();
+        const birth = new Date(birthDate);
+        let age = today.getFullYear() - birth.getFullYear();
+        const monthDiff = today.getMonth() - birth.getMonth();
+        
+        if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
+            age--;
+        }
+        
+        return age;
+    }
+
+    // Update age when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        const ageElement = document.getElementById('dynamicAge');
+        // Replace with your actual birth date in YYYY-MM-DD format
+        ageElement.textContent = calculateAge('1993-01-01'); 
+    });
+
+
+
 	const titleMap = new Map().set("aboutTitle",["About me","Über mich"])
 								.set("basicTitle",["Basic Information","Allgemeine Infos"])
 								.set("workTitle",["Work Experience","Arbeitserfahrung"])
@@ -804,6 +844,9 @@
 				fetch('/text/'+x+'/alpamayo.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("alpamayo").innerHTML=text)
+				fetch('/text/'+x+'/galliker.txt')
+					.then(response => response.text())
+					.then(text => document.getElementById("galliker").innerHTML=text)
 				fetch('/text/'+x+'/suisa.txt')
 					.then(response => response.text())
 					.then(text => document.getElementById("suisa").innerHTML=text)

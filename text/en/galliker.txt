@@ -1,0 +1,20 @@
+<ul>
+  <li>
+    Tasks
+    <ul>
+      <li>Development of comprehensive dashboards</li>
+      <li>Building lakehouses with SCD2 historization</li>
+      <li>Building ELT pipelines</li>
+      <li>Further development and optimization of our company's internal data pipelines</li>
+    </ul>
+  </li>
+  <li>
+    Technologies
+    <ul>
+      <li>Microsoft Azure (ADF, Synapse, Event Hub, etc.)</li>
+      <li>Databricks / PySpark</li>
+      <li>Python</li>
+      <li>Power BI</li>
+    </ul>
+  </li>
+</ul>
